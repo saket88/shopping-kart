@@ -40,7 +40,7 @@ public class ShoppingKartTest {
 
 
     @Test
-    public void testPremiumCustomerCheckoutFirstlab() throws Exception {
+    public void testPremiumCustomerCheckoutFirstSlab() throws Exception {
         ShoppingKart shoppingKart = new ShoppingKart();
         Customer customer = new Customer(CustomerType.PREMIUM);
         double netPrice=shoppingKart.checkOut(4000.0,customer);
